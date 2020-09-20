@@ -1,25 +1,40 @@
 
 * {
-    font-family:  'Gloria Hallelujah', cursive;;
+    font-family: 'Courier New';
+    
 }
 
+
+body {
+    background-image: url('../img/fire.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+}
 #konten {
    
     display: flex;
     justify-content: center;
+ 
 }
 
 
 .teks {
     font-weight: bold;
+    color:white;
     font-size:6rem;
+    
 }
-
 .countdown-timer {
-    margin:10px 30px;
+    margin:7px 36px;
     text-align: center;
     
 }
 .countdown-timer span {
     font-size:3rem;
+    color:white;
+    font-weight: 600;
 }
