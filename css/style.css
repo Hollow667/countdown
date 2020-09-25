@@ -21,6 +21,16 @@ body {
  
 }
 
+#gbr {
+   
+    display: flex;
+    justify-content: center;
+ 
+}
+
+h1 {
+	color: white;
+}
 
 .teks {
     font-weight: bold;

@@ -39,6 +39,7 @@ function hitungMundur(){
             clearInterval(y);
             //console.log('udah');
             document.getElementById('konten').innerHTML = '<h1>Happy Birthday!</h1>'; // menampilkan pesan 
+            document.getElementById('gbr').innerHTML = '<img src="img/hbd.png">'; // menampilkan gambar 
         }
 
     },1000) // timeout
